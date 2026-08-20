@@ -1,8 +1,8 @@
-# Simplificação visual solicitada
+# Revisão tipográfica e estrutural
 
-- [x] Substituir “Dossiê profissional” pelo nome de Vinicius Macário e ampliar a fonte do cabeçalho.
-- [x] Remover a navegação, referências a dossiê e ações de impressão.
-- [x] Excluir a primeira seção e a seção de competências.
-- [x] Remover a numeração das seções restantes.
-- [x] Simplificar o rodapé para manter apenas ícone e nome.
-- [ ] Validar o layout e republicar no GitHub Pages.
+- [x] Aplicar Avenir como fonte única em todo o site.
+- [x] Remover os blocos “Foco de atuação” e “Modo de trabalho”.
+- [x] Reduzir a escala da frase de apresentação do perfil.
+- [x] Ocultar os rótulos “Experiência” e “Base acadêmica”.
+- [x] Reorganizar a publicação no mesmo padrão das seções anteriores.
+- [ ] Validar e republicar a versão refinada.

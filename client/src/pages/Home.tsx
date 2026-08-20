@@ -5,9 +5,7 @@
 import {
   ArrowUpRight,
   BookOpen,
-  BriefcaseBusiness,
   GraduationCap,
-  Layers3,
 } from "lucide-react";
 
 const experience = [
@@ -94,11 +92,11 @@ const education = [
   },
 ];
 
-function SectionHeading({ eyebrow, title }: { eyebrow: string; title: string }) {
+function SectionHeading({ eyebrow, title }: { eyebrow?: string; title: string }) {
   return (
     <div className="section-heading">
       <div>
-        <p className="eyebrow">{eyebrow}</p>
+        {eyebrow ? <p className="eyebrow">{eyebrow}</p> : null}
         <h2>{title}</h2>
       </div>
     </div>
@@ -130,24 +128,12 @@ export default function Home() {
             <p className="display-statement">
               Estrutura estratégias financeiras e institucionais para tornar <span>projetos urbanos</span> tecnicamente sólidos, financiáveis e alinhados ao interesse público.
             </p>
-            <div className="profile-detail-grid">
-              <div className="profile-card">
-                <BriefcaseBusiness size={21} strokeWidth={1.5} />
-                <h3>Foco de atuação</h3>
-                <p>Finanças públicas, financiamento climático, mobilidade, planejamento urbano e governança intersetorial.</p>
-              </div>
-              <div className="profile-card">
-                <Layers3 size={21} strokeWidth={1.5} />
-                <h3>Modo de trabalho</h3>
-                <p>Transforma agendas complexas em estratégias, operações, indicadores e articulações que viabilizam resultados.</p>
-              </div>
-            </div>
           </div>
         </section>
 
         <section id="trajetoria" className="editorial-section trajectory-section">
           <aside className="section-aside sticky-aside">
-            <SectionHeading eyebrow="Experiência" title="Trajetória" />
+            <SectionHeading title="Trajetória" />
             <p className="aside-note">Atuação em governos, organismos internacionais e redes de cidades.</p>
             <div className="aside-art" role="img" aria-label="Abstração editorial com linha vertical e marcadores" />
           </aside>
@@ -183,7 +169,7 @@ export default function Home() {
 
         <section id="formacao" className="editorial-section education-section">
           <aside className="section-aside">
-            <SectionHeading eyebrow="Base acadêmica" title="Formação" />
+            <SectionHeading title="Formação" />
           </aside>
           <div className="education-list">
             {education.map((item) => (
@@ -200,10 +186,10 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="publicacao" className="publication-section">
-          <div className="publication-art" aria-hidden="true">
-            <div className="publication-generated-image" />
-          </div>
+        <section id="publicacao" className="editorial-section publication-section">
+          <aside className="section-aside">
+            <SectionHeading title="Publicação" />
+          </aside>
           <div className="publication-content">
             <p className="eyebrow"><BookOpen size={14} strokeWidth={1.7} /> publicação</p>
             <h2>Capacidades estatais, democracia e política pública.</h2>

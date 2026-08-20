@@ -24,8 +24,8 @@
   --color-accent-foreground: var(--accent-foreground);
   --color-border: var(--border);
   --color-ring: var(--ring);
-  --font-sans: "Manrope", Arial, sans-serif;
-  --font-serif: "DM Serif Display", Georgia, serif;
+  --font-sans: "Avenir", "Avenir Next", Arial, sans-serif;
+  --font-serif: "Avenir", "Avenir Next", Arial, sans-serif;
 }
 
 :root {
@@ -61,7 +61,7 @@
     margin: 0;
     background: var(--paper);
     color: var(--ink);
-    font-family: "Manrope", Arial, sans-serif;
+    font-family: "Avenir", "Avenir Next", Arial, sans-serif;
     font-size: 15px;
     line-height: 1.65;
     text-rendering: optimizeLegibility;
@@ -73,7 +73,8 @@
 }
 
 @layer components {
-  .resume-shell { min-width: 320px; overflow: hidden; }
+  .resume-shell { font-family: "Avenir", "Avenir Next", Arial, sans-serif; min-width: 320px; overflow: hidden; }
+  .resume-shell * { font-family: inherit; }
   .topbar {
     align-items: center;
     background: rgba(244, 240, 231, 0.94);
@@ -145,7 +146,7 @@
   .editorial-section { border-top: 1px solid var(--line); display: grid; gap: 7vw; grid-template-columns: minmax(220px, 0.43fr) minmax(0, 1fr); margin: 0 auto; max-width: 1550px; padding: 5.4rem 4.5vw; }
   .section-aside { min-width: 0; }
   .section-heading { align-items: flex-start; display: flex; }
-  .section-heading h2 { color: var(--teal); font-family: "DM Serif Display", Georgia, serif; font-size: clamp(2.15rem, 3.1vw, 3.4rem); font-weight: 400; letter-spacing: -0.045em; line-height: 0.98; margin: 0.37rem 0 0; }
+  .section-heading h2 { color: var(--teal); font-size: clamp(2rem, 2.8vw, 3rem); font-weight: 600; letter-spacing: -0.055em; line-height: 1; margin: 0.37rem 0 0; }
   .aside-note { color: #718083; font-size: 0.8rem; line-height: 1.7; margin: 2rem 0 0 2.85rem; max-width: 190px; }
   .contact-panel { border-top: 1px solid var(--line); display: grid; gap: 0.45rem; margin: 2rem 0 0 2.85rem; max-width: 220px; padding-top: 0.9rem; }
   .contact-panel p { color: #69797d; font-size: 0.62rem; font-weight: 800; letter-spacing: 0.11em; margin: 0; text-transform: uppercase; }
@@ -153,7 +154,7 @@
   .contact-panel a:hover { color: var(--terra); }
   .profile-section { background: #eae5dc; max-width: none; padding-left: calc((100vw - min(1550px, 100vw)) / 2 + 4.5vw); padding-right: calc((100vw - min(1550px, 100vw)) / 2 + 4.5vw); }
   .profile-main { max-width: 850px; }
-  .display-statement { color: var(--teal); font-family: "DM Serif Display", Georgia, serif; font-size: clamp(2.05rem, 3.45vw, 3.75rem); letter-spacing: -0.045em; line-height: 1.08; margin: -0.35rem 0 0; }
+  .display-statement { color: var(--teal); font-size: clamp(1.65rem, 2.55vw, 2.65rem); font-weight: 600; letter-spacing: -0.05em; line-height: 1.14; margin: -0.35rem 0 0; }
   .display-statement span { color: var(--terra); font-style: italic; }
   .profile-detail-grid { display: grid; gap: 1rem; grid-template-columns: repeat(2, 1fr); margin-top: 3rem; }
   .profile-card { border-top: 1px solid rgba(18, 60, 74, 0.3); padding-top: 1.15rem; }
@@ -169,7 +170,7 @@
   .timeline-entry:not(:last-of-type)::before { background: var(--line); bottom: 0; content: ""; left: 24px; position: absolute; top: 46px; width: 1px; }
   .timeline-marker { background: var(--terra); border: 5px solid var(--paper); border-radius: 100%; height: 18px; margin: 15px; position: relative; width: 18px; z-index: 1; }
   .period { color: var(--terra); font-size: 0.69rem; font-weight: 800; letter-spacing: 0.11em; line-height: 1.2; margin: 0 0 0.65rem; text-transform: uppercase; }
-  .timeline-content h3 { color: var(--teal); font-family: "DM Serif Display", Georgia, serif; font-size: clamp(1.58rem, 2.25vw, 2.2rem); font-weight: 400; letter-spacing: -0.035em; line-height: 1.05; margin: 0; }
+  .timeline-content h3 { color: var(--teal); font-size: clamp(1.38rem, 1.95vw, 1.9rem); font-weight: 600; letter-spacing: -0.045em; line-height: 1.1; margin: 0; }
   .timeline-content h4 { color: #49636a; font-size: 0.78rem; font-weight: 800; letter-spacing: 0.035em; line-height: 1.45; margin: 0.55rem 0 0; }
   .timeline-content ul { color: #52666a; font-size: 0.84rem; line-height: 1.72; list-style: none; margin: 1.15rem 0 0; max-width: 700px; padding: 0; }
   .timeline-content li { padding-left: 1rem; position: relative; }
@@ -197,18 +198,16 @@
   .education-list { display: grid; gap: 0; max-width: 850px; }
   .education-card { border-top: 1px solid var(--line); display: grid; gap: 1.4rem; grid-template-columns: 82px minmax(0, 1fr); padding: 1.55rem 0 1.8rem; }
   .education-card:last-child { border-bottom: 1px solid var(--line); }
-  .education-year { color: var(--terra); font-family: "DM Serif Display", Georgia, serif; font-size: 1.65rem; line-height: 1; }
+  .education-year { color: var(--terra); font-size: 1.35rem; font-weight: 600; line-height: 1; }
   .education-card svg { color: var(--terra); }
-  .education-card h3 { color: var(--teal); font-family: "DM Serif Display", Georgia, serif; font-size: 1.52rem; font-weight: 400; letter-spacing: -0.025em; line-height: 1.12; margin: 0.48rem 0 0; }
+  .education-card h3 { color: var(--teal); font-size: 1.3rem; font-weight: 600; letter-spacing: -0.035em; line-height: 1.16; margin: 0.48rem 0 0; }
   .institution { color: #466169; font-size: 0.78rem; font-weight: 800; line-height: 1.5; margin: 0.5rem 0 0; }
   .education-theme { color: #68767a; font-size: 0.78rem; line-height: 1.6; margin: 0.6rem 0 0; max-width: 600px; }
 
-  .publication-section { background: #eae5dc; display: grid; grid-template-columns: minmax(280px, 0.7fr) minmax(0, 1fr); min-height: 460px; }
-  .publication-art { background: var(--teal); min-height: 330px; overflow: hidden; }
-  .publication-generated-image { background-color: var(--teal); background-image: url("/manus-storage/cv-contact-editorial-abstract_d9c2d7ec.png"); background-position: center; background-repeat: no-repeat; background-size: cover; display: block; height: 100%; min-height: 460px; opacity: 0.9; width: 100%; }
-  .publication-content { align-self: center; max-width: 700px; padding: 5rem 6.5vw; }
-  .publication-content h2 { color: var(--teal); font-family: "DM Serif Display", Georgia, serif; font-size: clamp(2.15rem, 3.8vw, 4.3rem); font-weight: 400; letter-spacing: -0.055em; line-height: 0.98; margin: 1rem 0 2rem; }
-  .publication-content blockquote { border-left: 2px solid var(--terra); color: #3c575d; font-family: "DM Serif Display", Georgia, serif; font-size: 1.25rem; letter-spacing: -0.015em; line-height: 1.36; margin: 0; max-width: 625px; padding-left: 1.2rem; }
+  .publication-section { background: #eae5dc; }
+  .publication-content { align-self: start; max-width: 850px; padding: 0; }
+  .publication-content h2 { color: var(--teal); font-size: clamp(1.65rem, 2.45vw, 2.45rem); font-weight: 600; letter-spacing: -0.05em; line-height: 1.1; margin: 1rem 0 1.55rem; }
+  .publication-content blockquote { border-left: 2px solid var(--terra); color: #3c575d; font-size: 1rem; font-weight: 500; letter-spacing: -0.015em; line-height: 1.5; margin: 0; max-width: 625px; padding-left: 1.2rem; }
   .citation { color: #6a7679; font-size: 0.7rem; line-height: 1.65; margin: 1.3rem 0 0; max-width: 580px; }
   .site-footer { align-items: center; background: #0d303b; color: #fffaf0; display: flex; padding: 1.8rem 4.5vw; }
   .footer-brand { color: #fffaf0; }
@@ -241,8 +240,7 @@
     .sticky-aside { position: static; }
     .aside-art { display: none; }
     .publication-section { grid-template-columns: 1fr; }
-    .publication-generated-image { min-height: 250px; }
-    .publication-content { padding: 4.5rem 5vw; }
+    .publication-content { padding: 0; }
     .site-footer { padding: 1.6rem 5vw; }
   }
   @media (max-width: 560px) {
@@ -279,9 +277,9 @@
     .hero-facts { margin-top: 2rem; }
     .editorial-section { break-inside: avoid; padding-bottom: 3.2rem; padding-top: 3.2rem; }
     .sticky-aside { position: static; }
-    .aside-art, .publication-art { display: none; }
-    .publication-section { display: block; min-height: unset; }
-    .publication-content { max-width: none; padding: 3.2rem 5vw; }
+    .aside-art { display: none; }
+    .publication-section { min-height: unset; }
+    .publication-content { max-width: none; padding: 0; }
     .site-footer { display: flex; justify-content: space-between; }
   }
 }
