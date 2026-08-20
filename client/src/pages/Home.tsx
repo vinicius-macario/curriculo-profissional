@@ -10,7 +10,16 @@ import {
 
 const experience = [
   {
-    period: "Jan. 2024 — atual",
+    period: "Nov. 2025 - Jul. 2026",
+    organization: "C40 Cities",
+    role: "Gerente Sênior de Finanças Locais",
+    details: [
+      "Apoia 20 cidades na formulação de projetos de transporte e gestão de resíduos, mapeando fontes de financiamento e programas de apoio aos municípios.",
+      "Estrutura o componente financeiro da assistência técnica de 26 projetos e conduz parcerias com WRI Brasil, CCFLA e FNP em financiamento climático urbano.",
+    ],
+  },
+  {
+    period: "Jan. 2024 — Out. 2025",
     organization: "Secretaria Municipal da Fazenda de São Paulo",
     role: "Chefe da Assessoria Econômica",
     details: [
@@ -28,28 +37,11 @@ const experience = [
     ],
   },
   {
-    period: "Atuação internacional",
-    organization: "C40 Cities",
-    role: "Gerente Sênior de Finanças Locais",
-    details: [
-      "Apoia 20 cidades na formulação de projetos de transporte e gestão de resíduos, mapeando fontes de financiamento e programas de apoio aos municípios.",
-      "Estrutura o componente financeiro da assistência técnica de 26 projetos e conduz parcerias com WRI Brasil, CCFLA e FNP em financiamento climático urbano.",
-    ],
-  },
-  {
     period: "Jun. 2023 — Dez. 2023",
     organization: "Secretaria Municipal da Fazenda de São Paulo",
     role: "Assessor na Assessoria Econômica",
     details: [
       "Ofereceu suporte técnico à eletrificação do transporte público, incluindo operações de crédito com bancos multilaterais e nacionais, em iniciativas que totalizaram R$ 6 bilhões em investimentos.",
-    ],
-  },
-  {
-    period: "Out. 2022 — Mai. 2023",
-    organization: "Secretaria Municipal de Saúde de São Paulo",
-    role: "Analista de Políticas Públicas e Gestão Governamental",
-    details: [
-      "Trabalhou na integração entre política de saúde, planejamento urbano e análise orçamentária.",
     ],
   },
   {
