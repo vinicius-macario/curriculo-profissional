@@ -3,7 +3,7 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
 export default defineConfig({
-  base: process.env.GITHUB_ACTIONS ? "./" : "/",
+  base: process.env.GITHUB_ACTIONS ? "/curriculo-profissional/" : "/",
   plugins: [react()],
   root: fileURLToPath(new URL("./client", import.meta.url)),
   resolve: {

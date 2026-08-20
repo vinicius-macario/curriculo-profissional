@@ -5,4 +5,6 @@
 - [x] Criar o repositório público `curriculo-profissional` no GitHub.
 - [x] Enviar o código para a branch `main` e habilitar o GitHub Pages.
 - [x] Autorizar acesso de escrita da integração do GitHub ao repositório `curriculo-profissional`.
+- [ ] Ativar GitHub Pages com a fonte “GitHub Actions” nas configurações do repositório.
+- [ ] Corrigir o caminho-base da aplicação para o subdiretório do GitHub Pages.
 - [ ] Confirmar o endereço público e entregar os links finais.
