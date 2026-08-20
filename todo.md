@@ -1,10 +1,8 @@
-# Publicação do currículo
+# Simplificação visual solicitada
 
-- [x] Inserir nome, e-mail e LinkedIn de Vinicius Macário no site.
-- [ ] Validar a compilação estática após a personalização.
-- [x] Criar o repositório público `curriculo-profissional` no GitHub.
-- [x] Enviar o código para a branch `main` e habilitar o GitHub Pages.
-- [x] Autorizar acesso de escrita da integração do GitHub ao repositório `curriculo-profissional`.
-- [ ] Ativar GitHub Pages com a fonte “GitHub Actions” nas configurações do repositório.
-- [ ] Corrigir o caminho-base da aplicação para o subdiretório do GitHub Pages.
-- [ ] Confirmar o endereço público e entregar os links finais.
+- [x] Substituir “Dossiê profissional” pelo nome de Vinicius Macário e ampliar a fonte do cabeçalho.
+- [x] Remover a navegação, referências a dossiê e ações de impressão.
+- [x] Excluir a primeira seção e a seção de competências.
+- [x] Remover a numeração das seções restantes.
+- [x] Simplificar o rodapé para manter apenas ícone e nome.
+- [ ] Validar o layout e republicar no GitHub Pages.
