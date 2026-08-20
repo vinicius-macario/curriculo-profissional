@@ -151,7 +151,7 @@ export default function Home() {
             <dl>
               <div><dt>Foco</dt><dd>Finanças locais<br />e cidades</dd></div>
               <div><dt>Atuação</dt><dd>Setor público<br />e redes urbanas</dd></div>
-              <div><dt>Contato</dt><dd className="placeholder-contact">Adicionar e-mail<br />e perfil público</dd></div>
+              <div><dt>Contato</dt><dd><a className="contact-link" href="mailto:macariopvinicius@gmail.com">macariopvinicius<br />@gmail.com</a><a className="contact-link" href="https://www.linkedin.com/in/vinicius-macario/" target="_blank" rel="noreferrer">LinkedIn <ArrowUpRight size={11} strokeWidth={1.8} /></a></dd></div>
             </dl>
             <a href="#trajetoria">Índice <span>03</span></a>
           </aside>
@@ -159,8 +159,8 @@ export default function Home() {
           <div className="hero-copy reveal-item">
               <p className="eyebrow hero-eyebrow"><Sparkles size={14} strokeWidth={1.7} /> currículo selecionado</p>
               <h1 id="hero-title">
-                Seu
-                <em> nome.</em>
+                Vinicius
+                <em> Macário.</em>
               </h1>
               <p className="hero-role">Finanças locais, políticas públicas e cidades.</p>
               <p className="hero-intro">
@@ -312,7 +312,7 @@ export default function Home() {
       <footer className="site-footer">
         <a className="footer-brand" href="#inicio">
           <span className="monogram-mark" aria-hidden="true" />
-          <span>Dossiê profissional</span>
+          <span>Vinicius Macário</span>
         </a>
         <p>Gestão pública, financiamento e cidades sustentáveis.</p>
         <button type="button" onClick={handlePrint}>Imprimir currículo <Download size={14} strokeWidth={1.8} /></button>
