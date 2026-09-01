@@ -130,7 +130,7 @@ export default function Home() {
           </aside>
           <div className="profile-main">
             <p className="display-statement">
-              Estrutura estratégias financeiras e institucionais para tornar <span>projetos urbanos</span> tecnicamente sólidos, financiáveis e alinhados ao interesse público.
+              Profissional com mais de 10 anos em políticas públicas, finanças públicas e financiamento do desenvolvimento, com experiência em financiamento climático, bancos multilaterais, estruturação financeira, projetos de infraestrutura e articulação institucional.
             </p>
           </div>
         </section>
