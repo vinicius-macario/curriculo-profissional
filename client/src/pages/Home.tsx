@@ -121,7 +121,7 @@ export default function Home() {
         <section id="perfil" className="editorial-section profile-section">
           <aside className="section-aside">
             <SectionHeading eyebrow="Perfil" title="Vinicius Macário" />
-            <p className="aside-note">Gestão pública, finanças locais e cidades sustentáveis.</p>
+            <p className="aside-note">Finanças públicas, infraestrutura e serviços urbanos, clima.</p>
             <div className="contact-panel">
               <p>Contato</p>
               <a href="mailto:macariopvinicius@gmail.com">macariopvinicius@gmail.com</a>
