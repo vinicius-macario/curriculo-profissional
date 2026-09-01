@@ -71,7 +71,6 @@ const earlierExperience = [
   ["2021 — 2022", "Consórcio de Municípios Conectar", "Assessor Técnico"],
   ["2015 — 2016", "Secretaria-Geral da Presidência da República", "Coordenador de Relações Institucionais"],
   ["2014 — 2015", "Ministério do Desenvolvimento Agrário", "Assessor da Secretaria de Desenvolvimento Territorial"],
-  ["2013", "Prefeitura Municipal de São Paulo", "Coordenador-Geral de Conectividade e Convergência Digital"],
   ["2009 — 2011", "Ministério do Desenvolvimento Agrário", "Coordenador do Núcleo de Estudos Agrários"],
 ];
 
