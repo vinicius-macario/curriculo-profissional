@@ -14,8 +14,12 @@ const experience = [
     organization: "C40 Cities",
     role: "Gerente Sênior de Finanças Locais",
     details: [
-      "Apoia 20 cidades na formulação de projetos de transporte e gestão de resíduos, mapeando fontes de financiamento e programas de apoio aos municípios.",
-      "Estrutura o componente financeiro da assistência técnica de 26 projetos e conduz parcerias com WRI Brasil, CCFLA e FNP em financiamento climático urbano.",
+      "Apoio a 20 cidades brasileiras na estruturação de projetos de ação climática nas áreas de transporte e gestão de resíduos, incluindo identificação de fontes, instrumentos e programas de financiamento e análise de sua adequação às necessidades dos municípios.",
+      "Estruturação do componente financeiro da Assistência Técnica de 26 projetos, incluindo definição de produtos relacionados a orçamento, modelagem econômico-financeira e estratégias de financiamento.",
+      "Gestão da parceria com o WRI Brasil para o desenvolvimento da agenda técnica de financiamento climático local e articulação com instituições financeiras e bancos de desenvolvimento, com foco na identificação e superação de barreiras regulatórias ao financiamento climático subnacional urbano.",
+      "Gestão da parceria com a Cities Climate Finance Leadership Alliance (CCFLA) para a publicação e disseminação do relatório State of Cities Climate Finance, incluindo análise do financiamento climático urbano no Brasil.",
+      "Gestão da parceria com a Frente Nacional de Prefeitos (FNP) para criação e facilitação de grupo de trabalho com o Fórum de Secretários de Finanças, voltado à identificação de barreiras e proposição de soluções para ampliar o acesso dos municípios ao financiamento de ações climáticas.",
+      "Facilitação do CHAMP Local Climate Finance Working Group, plataforma de coordenação entre Banco Mundial, GIZ, WRI, CCFLA, FNP e outros atores estratégicos do financiamento subnacional no Brasil.",
     ],
   },
   {
@@ -23,9 +27,12 @@ const experience = [
     organization: "Secretaria Municipal da Fazenda de São Paulo",
     role: "Chefe da Assessoria Econômica",
     details: [
-      "Atua na estruturação econômico-financeira, governança e regras de compliance do projeto de eletrificação da frota de ônibus da cidade.",
-      "Contribuiu para operações de crédito com Banco Mundial, BID, Banco da China e BNDES, viabilizando US$ 1,2 bilhão para 3.000 ônibus elétricos.",
-      "Coordena uma equipe multidisciplinar de 9 profissionais e consolida a projeção das receitas municipais para o orçamento de 2026.",
+      "Integrante da Unidade de Gestão do projeto de eletrificação da frota de ônibus, responsável pela estruturação dos aspectos econômico-financeiros, da governança e das regras de compliance. Atuação direta no desenvolvimento e negociação de operações de crédito com o Banco Mundial, BID, Banco da China e BNDES, viabilizando US$ 1,2 bilhão em investimentos para a implantação de 3.000 ônibus elétricos.",
+      "Ponto focal na Rede de Secretários de Finanças de Cidades da América Latina do BID, promovendo intercâmbio e articulação entre governos subnacionais da região.",
+      "Responsável pela consolidação do orçamento das receitas municipais, estimado em US$ 23 bilhões para 2026, abrangendo receitas tributárias, operações de crédito, instrumentos de captura de valorização imobiliária, transferências federais e estaduais e subvenções.",
+      "Elaboração do Relatório de Gestão Fiscal, apresentado trimestralmente à Câmara Municipal, com análise do cumprimento das metas fiscais e da trajetória da dívida pública.",
+      "Assessoramento direto ao Secretário da Fazenda em temas relacionados a financiamento e finanças públicas, incluindo reequilíbrio econômico-financeiro de contratos de PPP, avaliação de impacto de políticas públicas e reforma tributária.",
+      "Coordenação de equipe multidisciplinar de nove profissionais, incluindo advogados, contadores, administradores e economistas.",
     ],
   },
   {
