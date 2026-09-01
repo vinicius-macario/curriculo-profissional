@@ -10,7 +10,7 @@ import {
 
 const experience = [
   {
-    period: "Nov. 2025 - Jul. 2026",
+    period: "Novembro 2025 - Julho 2026",
     organization: "C40 Cities",
     role: "Gerente Sênior de Finanças Locais",
     details: [
@@ -23,7 +23,7 @@ const experience = [
     ],
   },
   {
-    period: "Jan. 2024 — Out. 2025",
+    period: "Janeiro 2024 — Outubro 2025",
     organization: "Secretaria Municipal da Fazenda de São Paulo",
     role: "Chefe da Assessoria Econômica",
     details: [
@@ -36,34 +36,39 @@ const experience = [
     ],
   },
   {
-    period: "2024 — atual",
+    period: "Maio 2024 — Outubro 2025 ",
     organization: "SPDA — São Paulo Desenvolvimento e Mobilização de Ativos",
     role: "Membro do Conselho de Administração",
     details: [
-      "Participa da governança de sociedade de economia mista voltada à otimização de recursos financeiros para projetos prioritários e à administração de dívidas do Município.",
+      "Análise e aprovação de garantias relacionadas a projetos de parcerias público-privadas no setor habitacional.",
+      "Acompanhamento da implementação da estratégia institucional e dos mecanismos de aprimoramento da governança.",
     ],
   },
   {
-    period: "Jun. 2023 — Dez. 2023",
+    period: "Junho 2023 — Dezembro 2023",
     organization: "Secretaria Municipal da Fazenda de São Paulo",
     role: "Assessor na Assessoria Econômica",
     details: [
-      "Ofereceu suporte técnico à eletrificação do transporte público, incluindo operações de crédito com bancos multilaterais e nacionais, em iniciativas que totalizaram R$ 6 bilhões em investimentos.",
+      "Ofereceu suporte técnico à eletrificação do transporte público, incluindo operações de crédito com bancos multilaterais e nacionais.",
     ],
   },
   {
-    period: "Jun. 2016 — Set. 2021",
+    period: "Junho 2016 — Setembro 2021",
     organization: "Secretaria Municipal de Governo de São Paulo",
     role: "Analista de Políticas Públicas e Gestão Governamental",
     details: [
-      "Atuou no planejamento estratégico, monitoramento de metas prioritárias, orçamento e indicadores, com foco em mobilidade, infraestrutura urbana e meio ambiente.",
-      "Apoiou a estruturação da Agenda ODS 2030 no Município, a política de bonificação por resultados e a formação em gerenciamento de projetos.",
+      "Atuação na unidade de planejamento estratégico e apoio ao sistema de governança para o monitoramento de indicadores e orçamento de metas prioritárias do Prefeito",
+      "Foco de atuação junto às Secretarias de Transporte e Mobilidade, de Infraestrutura Urbana, e de Meio Ambiente; incluindo apoio à estruturação da Agenda ODS 2030 no Município.",
+      "Organização e participação em audiências e consultas públicas, incluindo definições metodológicas e sistematização dos resultados.",
+      "Elaboração de relatórios e balanços, apresentação de resultados para equipes técnicas, médio e alto escalão.",
+      "Atuação junto às unidades de planejamento dos demais órgãos para elaboração de metas, projetos e KPIs.
+",
     ],
   },
 ];
 
 const earlierExperience = [
-  ["2021 — 2022", "Consórcio Conectar", "Assessor Técnico"],
+  ["2021 — 2022", "Consórcio de Municípios Conectar", "Assessor Técnico"],
   ["2015 — 2016", "Secretaria-Geral da Presidência da República", "Coordenador de Relações Institucionais"],
   ["2014 — 2015", "Ministério do Desenvolvimento Agrário", "Assessor da Secretaria de Desenvolvimento Territorial"],
   ["2013", "Prefeitura Municipal de São Paulo", "Coordenador-Geral de Conectividade e Convergência Digital"],
